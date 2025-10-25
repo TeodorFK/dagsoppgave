@@ -1,0 +1,48 @@
+body {
+  font-family: poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 600;
+  margin-left: 3vh;
+}
+
+hr {
+  height: 1vh;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 1vh;
+  width: 97%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+img {
+  width: 40vh;
+  height: 40vh;
+  object-fit: cover;
+  margin-left: 5vh;
+  margin-top: 4vh;
+  border-radius: 5vh;
+  margin-bottom: -3.5vh;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2.3vh;
+  margin-left: 4vh;
+}
+
+footer {
+  background-color: var(--second-color);
+}
+:root {
+  --main-color: #5583bf;
+  --second-color: #d9d9d9;
+}
