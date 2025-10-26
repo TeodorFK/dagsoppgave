@@ -16,7 +16,11 @@ hr {
   border-radius: 1vh;
   width: 97%;
 }
-
+.intro {
+  width: 100vh;
+  display: flex;
+  margin: auto;
+}
 .row {
   display: flex;
   flex-direction: row;

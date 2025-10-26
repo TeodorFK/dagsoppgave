@@ -1,0 +1,55 @@
+body {
+  font-family: poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: 600;
+  margin-left: 3vh;
+}
+
+button {
+  display: flex;
+  margin-left: auto;
+  margin-top: -10vh;
+  margin-right: 4vh;
+  margin-bottom: 2vh;
+  border-style: none;
+  background-color: var(--main-color);
+  padding: 2vh;
+  border-radius: 1vh;
+  color: white;
+  font-size: 2vh;
+  cursor: pointer;
+}
+
+hr {
+  height: 1vh;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 1vh;
+  width: 97%;
+  margin-bottom: 3vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 70vh;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 2vh;
+  margin-bottom: -3.5vh;
+  margin: auto;
+}
+.text {
+  width: 80vh;
+  margin-left: 7vh;
+}
+
+:root {
+  --main-color: #5583bf;
+  --second-color: #d9d9d9;
+}
